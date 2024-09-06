@@ -1,4 +1,4 @@
-package com.ohgiraffers.restapi.section04.hateoas;
+package com.ohgiraffers.restapi.section05.swagger;
 
 import java.util.Map;
 
@@ -8,7 +8,7 @@ public class ResponseMessage {
     private String message;
     private Map<String, Object> results;
 
-    public  ResponseMessage(){
+    public ResponseMessage(){
 
     }
 

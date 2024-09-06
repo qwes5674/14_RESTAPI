@@ -1,9 +1,4 @@
-package com.ohgiraffers.restapi.section04.hateoas;
-
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Past;
-import jakarta.validation.constraints.Size;
+package com.ohgiraffers.restapi.section05.swagger;
 
 import java.time.LocalDate;
 
@@ -40,8 +35,8 @@ public class UserDTO {
         return id;
     }
 
-    public void setId() {
-        this.id = id;
+    public void setId(String id) {
+        this.id = this.id;
     }
 
     public String getPwd() {
